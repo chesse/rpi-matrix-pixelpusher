@@ -31,6 +31,10 @@ September 2015, either compile using the 'classic pinout'
 
 .. or actually consider changing the wiring, as it reduces potential flickering.
 
+**NOTE** If you use Adafuit's RgbMatrix HAT, please compile using this command line :
+
+    DEFINES+="-DADAFRUIT_RGBMATRIX_HAT" make
+
 Running
 -------
 Simply run the program as root (which is needed to access the GPIO pins).
